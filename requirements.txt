@@ -1,0 +1,34 @@
+# Core Data Science and Analysis
+pandas>=1.5.0
+numpy>=1.24.0
+scipy>=1.10.0
+scikit-learn>=1.3.0
+
+# Financial Data and APIs
+yfinance>=0.2.18
+
+# Machine Learning and Statistics
+joblib>=1.3.0
+statsmodels>=0.14.0
+
+# Visualization and Plotting
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Web Application Framework
+streamlit>=1.28.0
+
+# Data Processing and Utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Optional Technical Analysis (install separately if needed)
+# ta-lib>=0.4.25
+
+# Development and Testing (optional)
+pytest>=7.4.0
+jupyter>=1.0.0
+
+# Performance and Optimization
+numba>=0.57.0
