@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-ION Financial Risk Analyzer - Standalone Analysis Script
+Financial Risk Analyzer - Standalone Analysis Script
 Professional-grade financial analysis for command-line execution
 """
 
@@ -35,7 +35,7 @@ except ImportError as e:
 def print_banner():
     """Print application banner."""
     print("="*80)
-    print("🏦 ION FINANCIAL RISK ANALYZER")
+    print("🏦 FINANCIAL RISK ANALYZER")
     print("Professional Investment Decision Support System")
     print("="*80)
     print()
@@ -279,7 +279,7 @@ def generate_executive_summary(risk_metrics, recommendations, ml_results, filena
     """Generate and save executive summary report."""
     
     with open(filename, 'w') as f:
-        f.write("ION FINANCIAL RISK ANALYZER - EXECUTIVE SUMMARY\n")
+        f.write("FINANCIAL RISK ANALYZER - EXECUTIVE SUMMARY\n")
         f.write("=" * 60 + "\n")
         f.write(f"Generated: {datetime.now().strftime('%B %d, %Y at %I:%M %p')}\n\n")
         
@@ -443,7 +443,7 @@ def run_demo_analysis():
 if __name__ == "__main__":
     import argparse
     
-    parser = argparse.ArgumentParser(description="ION Financial Risk Analyzer")
+    parser = argparse.ArgumentParser(description="Financial Risk Analyzer")
     parser.add_argument('--demo', action='store_true', help='Run demo analysis with predefined settings')
     parser.add_argument('--stocks', nargs='+', help='List of stock symbols to analyze')
     parser.add_argument('--period', default='2y', choices=['1y', '2y', '3y', '5y'], help='Analysis period')

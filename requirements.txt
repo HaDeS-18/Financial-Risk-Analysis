@@ -23,6 +23,9 @@ streamlit>=1.28.0
 python-dateutil>=2.8.2
 pytz>=2023.3
 
+# PDF Generation
+reportlab>=4.0.4
+
 # Optional Technical Analysis (install separately if needed)
 # ta-lib>=0.4.25
 

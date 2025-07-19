@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 # Application Configuration
 APP_CONFIG = {
-    "title": "ION Financial Risk Analyzer",
+    "title": "Financial Risk Analyzer",
     "subtitle": "Professional Investment Decision Support System",
     "icon": "📈",
     "layout": "wide",
