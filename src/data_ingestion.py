@@ -15,14 +15,13 @@ logger = logging.getLogger(__name__)
 
 class FinancialDataIngestion:
     """
-    Professional-grade financial data ingestion system for real-time market analysis.
+    Professional grade financial data ingestion system for real-time market analysis.
     Designed for institutional-quality financial applications.
     """
     
     def __init__(self, cache_ttl: int = 300):
         """
         Initialize the data ingestion system.
-        
         Args:
             cache_ttl: Cache time-to-live in seconds (default: 5 minutes)
         """

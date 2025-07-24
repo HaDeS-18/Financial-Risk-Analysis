@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 Financial Risk Analyzer - Standalone Analysis Script
 Professional-grade financial analysis for command-line execution
